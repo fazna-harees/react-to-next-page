@@ -1,0 +1,10 @@
+/* @import Illustration from './' */
+.front {
+    @apply bg-white px-10 py-5;
+    @apply w-screen h-screen;
+    @apply sm:text-4xl;
+    /* background-image: url('./public/undraw_freelancer.svg'); */
+}
+.heading {
+    @apply text-pink-700
+}

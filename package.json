@@ -5,18 +5,46 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export":"next export"
   },
   "dependencies": {
+    "@emotion/css": "^11.7.1",
+    "@emotion/react": "^11.7.1",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.6.0",
+    "@owaiswiz/use-in-view": "^1.0.16",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^13.1.5",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "feather-icons": "^4.28.0",
+    "framer-motion": "^4.1.5",
     "next": "12.0.4",
+    "next-transpile-modules": "^9.0.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "17.0.2",
+    "react-github-btn": "^1.2.0",
+    "react-modal": "^3.13.1",
+    "react-redux": "^7.2.6",
+    "react-rnd": "^10.2.4",
+    "react-scripts": "^5.0.0",
+    "react-slick": "^0.28.1",
+    "redux": "^4.1.2",
+    "slick-carousel": "^1.8.1",
+    "stream": "^0.0.2",
+    "styled-components": "^5.2.3"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.0",
+    "@emotion/babel-plugin": "^11.7.2",
+    "autoprefixer": "^10.4.1",
+    "babel-plugin-macros": "^3.1.0",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.4",
-    "postcss": "^8.4.4",
-    "tailwindcss": "^2.2.19"
+    "postcss": "^8.4.5",
+    "tailwindcss": "^2.2.19",
+    "tailwindcss-debug-screens": "^2.2.0",
+    "twin.macro": "^2.8.2"
   }
 }
